@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genime</title>
+    <link rel="shortcut icon" href="favicon/GE.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <img class="banner" src="assets/banners/banner.png" alt="banner">
+            <a class="menu" href="index.html">Home</a>
+            <a class="menu" href="#">Favoritos</a>
+            <a class="menu" href="#contato">Contact</a>
+            <a class="menu" href="faq.html">Sugestões</a>
+        </nav>
+    </header>
+    <main>
+        <section class="busca">
+            <h1>
+                A N I M E S
+                <br>
+                Personagens Favoritos
+            </h1>
+            <input id="campo-pesquisa" type="text" name="" placeholder="Digite seu personagem de anime favorito...">
+            <button onclick="pesquisar()">Buscar</button>
+        </section>
+        <section id="resultados-pesquisa" class="resultados-pesquisa">
+            <div class="item-resultado">
+                <h2>Killua Zoldyck</h2>
+                <img class="img-resultado" src="https://i.pinimg.com/originals/34/31/c5/3431c5e19a2a91578064208f9d611486.jpg" alt="Killua">
+                <p>Anime: Hunter X Hunter</p>
+                <p class="descricao-meta">Killua Zoldyck é um dos personagens mais queridos e complexos do anime e mangá Hunter x Hunter. Nascido em uma das famílias de assassinos mais temidas do mundo, os Zoldyck, Killua foi criado desde a infância para seguir os passos de seus familiares. Apesar de suas habilidades letais, Killua esconde um coração puro e uma lealdade inabalável aos seus amigos.</p>
+                <p>Habilidades: Nen (Hatsu), Velocidade, Agilidade, Eletricidade.</p>
+                <p>Citação: Eu não quero mais ser um assassino.</p>
+                <a href="https://hunter-x-hunter.fandom.com/pt/wiki/Killua_Zaoldyeck" target="_blank">Saiba mais...</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>Naruto Uzumaki</h2>
+                <img class="img-resultado" src="https://pm1.aminoapps.com/7698/916e6c2f685f1d540ce326ef23de84e6b84f40b7r1-400-400v2_hq.jpg" alt="Naruto">
+                <p>Anime: Naruto</p>
+                <p class="descricao-meta">Naruto Uzumaki é o protagonista do anime e mangá Naruto. Órfão desde pequeno e rejeitado por sua vila, Naruto sonha em se tornar Hokage, o líder da Vila da Folha, para ser reconhecido por todos. Com determinação e um espírito indomável, Naruto enfrenta diversos desafios ao longo de sua jornada.</p>
+                <p>Habilidades: Ninjutsu, Taijutsu, Genjutsu, Chakra Kurama.</p>
+                <p>Citação: Eu nunca vou desistir!</p>
+                <a href="https://naruto.fandom.com/pt/wiki/Naruto_Uzumaki" target="_blank">Saiba mais...</a>
+            </div>
+        
+            <div class="item-resultado">
+                <h2>Asta</h2>
+                <img class="img-resultado" src="https://i.pinimg.com/736x/b0/39/60/b03960076de4432dabb24d1dc146f6f7.jpg" alt="Asta">
+                <p>Anime: Black Clover</p>
+                <p class="descricao-meta">Asta é o protagonista do anime e mangá Black Clover. Nascido em um mundo onde a magia é tudo, Asta é um dos poucos indivíduos que não possui nenhum poder mágico. Apesar disso, com sua espada anti-magia e um espírito inabalável, ele luta para se tornar o Rei Mago.</p>
+                <p>Habilidades: Espada Anti-Magia, Força Física, Magia de Anti-Magia.</p>
+                <p>Citação: Eu vou me tornar o Rei Mago!</p>
+                <a href="https://blackclover.fandom.com/pt-br/wiki/Asta" target="_blank">Saiba mais...</a>
+            </div>
+        </section>
+    </main>
+    <footer id="contato">
+        <p>
+            &copy; Ivan Lima 2024, Todos os direitos reservados.
+            <br>
+            Contact: ivanlimadossantos4@gmail.com
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
